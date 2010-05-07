@@ -1,4 +1,4 @@
-LOCAL_DIR := $(call my-dir)
+LOCAL_DIR := vendor/idroid/iPhone3G/
 
 $(call inherit-product, $(LOCAL_DIR)/../common/common.mk)
 
