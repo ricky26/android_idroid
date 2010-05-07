@@ -1,6 +1,8 @@
-include vendor/idroid/common/AndroidBoardCommon.mk
+LOCAL_PATH := $(call my-dir)
 
-include vendor/idroid/iPhone3G/libaudio/Android.mk
+include $(LOCAL_PATH)/../common/AndroidBoardCommon.mk
+
+include $(LOCAL_PATH)/libaudio/Android.mk
 
 file := $(TARGET_OUT_KEYLAYOUT)/gpio-keys.kl
 ALL_PREBUILT += $(file)

@@ -1,9 +1,10 @@
-$(call inherit-product, vendor/idroid/common/common.mk)
+LOCAL_DIR := $(call my-dir)
+
+$(call inherit-product, $(LOCAL_DIR)/../common/common.mk)
 
 PRODUCT_NAME := iPhone3G
 PRODUCT_DEVICE := iPhone3G
 
-LOCAL_DIR := vendor/idroid/iPhone3G/
 LIBERTAS := $(LOCAL_DIR)libertas/
 LOCAL_KERNEL := $(LOCAL_DIR)vmlinux
 
