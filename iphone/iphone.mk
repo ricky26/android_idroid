@@ -30,8 +30,6 @@ PRODUCT_COPY_FILES := \
 vendor/apple/firmware/sd8686.bin:system/etc/firmware/sd8686.bin \
 vendor/apple/firmware/sd8686_helper.bin:system/etc/firmware/sd8686_helper.bin \
 vendor/apple/firmware/zephyr2.bin:system/etc/firmware/zephyr2.bin \
-vendor/apple/firmware/zephyr2_cal.bin:system/etc/firmware/zephyr2_cal.bin \
-vendor/apple/firmware/zephyr2_proxcal.bin:system/etc/firmware/zephyr2_proxcal.bin \
 vendor/apple/asound.conf:system/etc/asound.conf \
 vendor/apple/asound.state:system/etc/asound.state \
 vendor/apple/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
