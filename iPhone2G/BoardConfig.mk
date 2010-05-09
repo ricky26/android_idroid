@@ -1,4 +1,4 @@
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := $(dir $(lastword $(MAKEFILE_LIST)))
 
 TARGET_BOOTLOADER_BOARD_NAME := idroid
 
