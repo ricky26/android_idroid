@@ -1,4 +1,4 @@
-LOCAL_PATH := vendor/idroid/common
+LOCAL_PATH := $(dir $(lastword $(MAKEFILE_LIST)))
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/generic.mk)
 
