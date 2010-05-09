@@ -1,4 +1,4 @@
-include vendor/idroid/common/BoardConfigCommon.mk
+LOCAL_PATH := $(call my-dir)
 
 TARGET_BOOTLOADER_BOARD_NAME := idroid
 
@@ -12,3 +12,5 @@ BOARD_WPA_SUPPLICANT_PRIVATE_LIB :=
 #WIFI_DRIVER_MODULE_ARG      := ""
 #WIFI_DRIVER_MODULE_NAME     := "libertas_sdio"
 
+COMMON := $(LOCAL_PATH)/../common
+include $(COMMON)/BoardConfigCommon.mk
