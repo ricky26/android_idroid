@@ -11,7 +11,6 @@ LOCAL_SRC_FILES := gpio-keys.kcm
 include $(BUILD_KEY_CHAR_MAP)
 
 SUBDIRS := \
-	$(LOCAL_PATH)/libril/Android.mk \
 	$(COMMON)/AndroidBoardCommon.mk
 
 include $(SUBDIRS)

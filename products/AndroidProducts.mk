@@ -1,2 +1,6 @@
+#LOCAL_DIR := $(call my-dir)
+ROOT := $(dir $(LOCAL_DIR))
+COMMON := $(ROOT)common
+
 PRODUCT_MAKEFILES := \
-  $(LOCAL_DIR)/../iPhone3G/iPhone3G.mk
+  $(ROOT)iPhone3G/iPhone3G.mk
